@@ -1,5 +1,6 @@
 body{
     background-image: url(../img/fundo\ do\ portifolio.jpg);
+    color: white;
 }
 
 .Icone{
@@ -17,7 +18,6 @@ header nav ul li{
     display: inline;
     padding: 10px;
     padding-bottom: 10px;
-
 }
 
 
@@ -48,8 +48,9 @@ main img{
     width: 350px;
     margin-left: 20px;
     margin-top: 20px;
-    border: 10px solid rgb(66, 66, 66);
+    border: 10px solid rgb(37, 37, 37);
     border-radius: 20px 80px;
+    box-shadow: 5px 10px 30px rgb(146, 145, 145);
 }
 
 header nav ul li:hover {
@@ -59,20 +60,32 @@ header nav ul li:hover {
     transition: 0.6s;
 }
 
-
-.text{
+.Fundo_do_Texto{
     position: absolute;
-    border: 10 px solid rgb(66, 66, 66);
-    background-color: rgb(66, 66, 66);
-    border-radius: 10px;
-    margin-top: -400px;
-    margin-left: 450px;
-    height: 380px;
-    width: 1420px;
-    opacity: 0.5;
+    margin-top: -416px;
+    margin-left: 430px;
+    width: 1095px;
+    height: 391px;
+    background-color: rgb(37, 37, 37, 0.7);
+    border-radius: 15px;
+    padding: 10px 20px;
 }
 
-.apresentacao{
-    display: flex;
-    justify-content: center;
+.Texto{
+    position: absolute;
+    font-size: 12px;
+    opacity: 0.85;
+    text-align: justify;
+    padding: 10px 30px 10px 10px;
+
+}
+
+.Titulo{
+    margin-left: 350px;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.card-header{
+    background-color: black;
 }
