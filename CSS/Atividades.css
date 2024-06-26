@@ -1,7 +1,22 @@
-.atividade1{
+.atividades{}
+
+.atividade1{}
+
+.caixa{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 310px;
+    width: 510px;
+    position: absolute;
+    margin-top: -365px;
+    margin-left: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.text{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-top: 20%;
+    color: rgb(255, 255, 255);
 }
 
 .Imagem1{
@@ -9,24 +24,17 @@
     margin-top: 8px;
     margin-left: 10px;
     border-radius: 30px;
-    height: 330px;
-    width: 680px;   
+    height: 350px;
+    width: 550px;   
+    opacity: 0.8;
 }
 
-.Texto2{
-    margin: 30px;
-    text-align: justify;
+.atividade1:hover.atividade1{
+    opacity: 1;
 }
 
-.Titulo2{
-    text-align: center;
-}
-
-.caixa_de_texto2{
-    background-image: url(../img/Hover.png);
-    background-position: cover;
-    margin: 28px 20px 20px 20px;
-    border-radius: 30px;
+.atividade1:hover.caixa{
+    opacity: 0;
 }
 
 .ingles{

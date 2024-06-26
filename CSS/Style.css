@@ -4,8 +4,8 @@ body{
 }
 
 .Icone{
-    height: 120px;
-    width: 120px;
+    height: 100px;
+    width: 100px;
     display: flex;
     border: 4px solid white;
     border-radius: 20px;
@@ -24,13 +24,13 @@ header nav {
     padding: 30px;
 }
 
-header{
+header{ 
     background-color: rgb(24, 24, 24);
     justify-content: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 230px;
+    height: 200px;
 }
 
 *{
@@ -42,8 +42,8 @@ header nav ul a{
 }
 
 main img{
-    height: 400px;
-    width: 400px;
+    height: 380px;
+    width: 380px;
     margin-left: 20px;
     margin-top: 20px;
     border: 10px solid rgb(37, 37, 37);
@@ -61,6 +61,8 @@ header nav ul li:hover {
 .inicio{
     display: flex;
     justify-content: space-around;   
+    padding-left: 150px;
+    padding-top: 50px;
 }
 
 .texto{
@@ -68,9 +70,10 @@ header nav ul li:hover {
     flex-direction: column;
     padding: 50px;
     padding-top: 0px;
-    font-size: 12px;
+    font-size: 14px;
     background-color: rgba(38, 38, 38, 0.644);
     margin: 60px;
+    margin-top: 30px;
     border-radius: 10px;
 }
 
