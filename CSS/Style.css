@@ -1,9 +1,17 @@
+                                        /* Geral */
+
 body{
     background-image: url(../img/Fundo.jpg);
     color: white;
     background-size: 100%;
     background-attachment: fixed;
 }
+
+*{
+    margin: 0px;
+}
+
+                                        /* Header */
 
 header nav ul li{
     color: white;
@@ -34,13 +42,18 @@ header{
     z-index: 999;
 }
 
-*{
-    margin: 0px;
+header nav ul li:hover {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    transition: 0.6s;   
 }
 
 header nav ul a{
     text-decoration: none;
 }
+
+                                            /* Main */
 
 main{
     margin-top: 100px;
@@ -53,13 +66,6 @@ main img{
     margin-top: 30px;
     border-radius: 50px;
     box-shadow: 5px 10px 30px rgb(0, 0, 0);
-}
-
-header nav ul li:hover {
-    background-color: white;
-    color: black;
-    border-radius: 10px;
-    transition: 0.6s;   
 }
 
 .inicio{
@@ -137,12 +143,81 @@ h1{
 }
 
 .imagem_atividades{
-    width: 50vh;
-    height: 40vh;
+    width: 300px;
+    height: 250px;
+    border-radius: 30px;
+    text-shadow: 5px 2px 10px rgb(0, 0, 0);
+    margin-bottom: 30px;
+    
+}
+
+.imagem_atividades2{
+    width: 300px;
+    height: 240px;
     border-radius: 30px;
     text-shadow: 5px 2px 10px rgb(0, 0, 0);
     margin-bottom: 30px;
 }
+
+.tela_de_inicio{
+    width: 300px;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(1px);
+    border-radius: 30px;
+    position: absolute;
+    margin: 30px 0px 30px 20px;
+    text-align: center;
+    align-content: center;
+}
+
+.monitor{
+   width: 30px;
+   margin-top: 20px;
+   margin-right: 10px;
+}
+
+.ponteiro{
+    width: 20px;
+}
+
+.ver_mais{
+    background-color: rgb(2, 21, 71, 0.9); 
+    margin-top: 24px;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    border-radius: 0px 0px 20px 20px;
+    text-align: center;
+    align-content: center;
+    backdrop-filter: blur(3px);
+}
+
+.ver_mais p{
+    background-color: white;
+    color: black;
+    margin-left: 90px;
+    margin-right: 90px;
+    border-radius: 30px;
+    padding: 7px;
+    font-size: 15px;
+}
+
+.banco{
+    width: 30px;
+}
+
+.icones p{
+    font-size: 25px;
+    margin-left: 10px;
+
+}
+
+.icones{
+    margin-top: 20px;
+}
+
+                                                /* Footer */
 
 footer {
     background-color: rgba(2, 21, 71, 0.8);
@@ -154,13 +229,14 @@ footer {
     text-transform: uppercase;
     flex-direction: column;
     padding-top: 10px;
-    margin-top: 150px;
+    margin-top: 100px;
+    padding-bottom: 10px;
 }
 
 footer h1{
     display: flex;
     justify-content: center;
-    font-size: 3vh;
+    font-size: 3.5vh;
     margin-top: -10px;
     margin-bottom: 10px;
 }
